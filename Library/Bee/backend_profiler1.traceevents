@@ -1,0 +1,529 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1673795203425447, "dur":1716, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203427175, "dur":45, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1673795203427230, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1673795203427249, "dur":662, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1673795203427945, "dur":896, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203428841, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203526943, "dur":262, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527206, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527218, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527219, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527226, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527227, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527232, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527234, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527239, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527240, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527246, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527247, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527253, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527254, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527260, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527261, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527267, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527268, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527274, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527280, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527281, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527286, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527287, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527294, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527310, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203527323, "dur":1877, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1673795203427974, "dur":875, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203428850, "dur":6593, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203435458, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673795203435466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203437300, "dur":552, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673795203437854, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673795203437933, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203438175, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1673795203441407, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673795203441519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203442589, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1673795203444940, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1673795203445067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203445671, "dur":7024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1673795203452764, "dur":651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203453419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203453427, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203457229, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203457452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203457459, "dur":3103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203460651, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203461038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203461045, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203464433, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203464673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203464681, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203467824, "dur":1414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203469242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203469280, "dur":5462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203474833, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203475032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203475039, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203478643, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203478831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203478838, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203481528, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203482145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203482153, "dur":3475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203485679, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203486073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203486081, "dur":3029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1673795203489159, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673795203489211, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203489217, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1673795203491343, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1673795203491404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1673795203491410, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1673795203494125, "dur":32818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203428221, "dur":634, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203428855, "dur":6597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203435458, "dur":1141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1673795203436603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203439905, "dur":2155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1673795203442117, "dur":1102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673795203443222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203443230, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1673795203445817, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203446016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203446023, "dur":4855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203450932, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203451134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203451141, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203454450, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203454613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203454620, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203458221, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203458424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203458431, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203461970, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203462338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203462345, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203465817, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203466025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203466032, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203469233, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203469448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203469455, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203472871, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203473157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203473165, "dur":2873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203476105, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203476316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203476324, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203480502, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203480738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203480745, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203484076, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203484925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203484931, "dur":4802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":2, "ts":1673795203489794, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673795203489858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1673795203489864, "dur":3686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1673795203493605, "dur":33321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203429200, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203429201, "dur":6253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203435459, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673795203435703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203440390, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1673795203444022, "dur":21452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203465478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203465577, "dur":7286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203472929, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203473225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203473232, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203476292, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203476440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203476446, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203480678, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203480903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203480910, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203483956, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203484491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203484499, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1673795203488019, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1673795203488077, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203488083, "dur":2626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1673795203490759, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1673795203490864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1673795203490871, "dur":2761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1673795203493684, "dur":33240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203428274, "dur":607, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203428881, "dur":6576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203435459, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673795203436527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203440102, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1673795203442673, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1673795203442807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203442816, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1673795203445710, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203445936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203446003, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203450523, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203450718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203450725, "dur":3009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203453782, "dur":1336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203455120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203455126, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203459283, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203459494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203459501, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203463382, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203463589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203463596, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203466825, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203467107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203467114, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203470084, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203470413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203470420, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203474028, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203474250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203474257, "dur":3269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203477576, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203477782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203477790, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203480486, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203480777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203480784, "dur":3237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203484096, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203484362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203484369, "dur":3015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1673795203487436, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1673795203487488, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203487612, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1673795203489751, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673795203489806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1673795203489813, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1673795203494288, "dur":32659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203428320, "dur":568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203428888, "dur":6573, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203435464, "dur":1060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673795203436527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203440060, "dur":3690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1673795203443804, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1673795203443946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203443954, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1673795203447220, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203447481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203447516, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203449302, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203449517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203449524, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203452933, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203453192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203453199, "dur":2953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203456206, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203456611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203456618, "dur":3159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203459841, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203460102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203460110, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203463363, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203463553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203463559, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203467056, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203467634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203467642, "dur":2558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203470253, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203470496, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203470502, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203474401, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203474607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203474614, "dur":3768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203478431, "dur":3109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203481543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203481550, "dur":5478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1673795203487149, "dur":658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1673795203487811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203488442, "dur":1867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1673795203490358, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1673795203490410, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1673795203490426, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1673795203493419, "dur":33506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203428410, "dur":483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203428894, "dur":6574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203435468, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1673795203436525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203439842, "dur":2714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1673795203442593, "dur":970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1673795203443567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203443575, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1673795203445871, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203446083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203446090, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203450613, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203450819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203450825, "dur":2979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203453857, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203454239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203454246, "dur":3742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203458042, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203458235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203458242, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203461713, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203461926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203461932, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203465421, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203465627, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203465634, "dur":3113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203468800, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203469008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203469015, "dur":2912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203471980, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203472505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203472515, "dur":2528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203475312, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203475508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203475515, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203479114, "dur":2055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203481173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203481180, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203485222, "dur":4713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203489939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1673795203489946, "dur":4867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1673795203494845, "dur":32099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673795203428536, "dur":378, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673795203428914, "dur":6609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673795203435523, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673795203435688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673795203439939, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1673795203444178, "dur":68455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673795203512637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1673795203512643, "dur":14221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1673795203526901, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1673795203526904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203428671, "dur":248, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203428919, "dur":6564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203435484, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1673795203435786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203440134, "dur":4225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1673795203444412, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness.exe" }}
+,{ "pid":12345, "tid":8, "ts":1673795203445146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203445182, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness.exe" }}
+,{ "pid":12345, "tid":8, "ts":1673795203449015, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203449217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203449226, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203452640, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203452860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203452869, "dur":2792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203455722, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203455966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203455974, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203458983, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203459177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203459185, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203462459, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203462682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203462689, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203465508, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203465706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203465712, "dur":3245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203469006, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203469242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203469283, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203473038, "dur":507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203473549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203473557, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203476665, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203476847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203476854, "dur":3606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203480535, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203480818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203480825, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203483775, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203484074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203484081, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1673795203487626, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673795203487684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203487691, "dur":2603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1673795203490377, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1673795203490444, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1673795203490450, "dur":3250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1673795203493735, "dur":33230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203428783, "dur":143, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203428926, "dur":6533, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203435459, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673795203435675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203439918, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1673795203442796, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1673795203442958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203442966, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1673795203445459, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203445647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203445847, "dur":3944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203449836, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203450030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203450037, "dur":3123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203453231, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203453436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203453442, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203456796, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203456990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203456997, "dur":2973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203460021, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203460278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203460286, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203463211, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203463428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203463436, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203466848, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203467051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203467059, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203470242, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203470505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203470511, "dur":4629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203475191, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203475468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203475477, "dur":3820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203479350, "dur":1033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203480387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203480425, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203483288, "dur":1320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203484612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203484619, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1673795203489347, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1673795203489535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203489541, "dur":2301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":9, "ts":1673795203491877, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1673795203492060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1673795203492067, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/boot.config" }}
+,{ "pid":12345, "tid":9, "ts":1673795203494276, "dur":32688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203428922, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203428923, "dur":6543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203435467, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1673795203435707, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203439938, "dur":4001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1673795203443998, "dur":3651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203447653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203448011, "dur":2658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203450742, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203451009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203451016, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203454258, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203454522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203454530, "dur":3395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203457982, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203458185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203458192, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203461992, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203462244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203462251, "dur":3266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203465581, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203465807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203465814, "dur":3289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203469155, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203469359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203469366, "dur":2913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203472342, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203473014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203473022, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203476131, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203476325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203476332, "dur":3668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203480048, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203480351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203480359, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203482878, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203483067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203483075, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203485982, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203486288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203486296, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1673795203489082, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1673795203489129, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203489140, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1673795203491044, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1673795203491093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1673795203491099, "dur":2942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1673795203494082, "dur":32865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203429053, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203429054, "dur":6430, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203435484, "dur":1063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1673795203436550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203439857, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1673795203442437, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1673795203442527, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203442577, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1673795203445262, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203445531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203445925, "dur":4078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203450055, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203450287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203450295, "dur":3135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203453481, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203453711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203453718, "dur":2976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203456748, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203456969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203456976, "dur":3608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203460638, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203460839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203460846, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203464224, "dur":343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203464571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203464578, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203467972, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203468207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203468215, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203470655, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203470837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203470842, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203474442, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203474618, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203474626, "dur":3312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203478006, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203478322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203478330, "dur":4041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203482435, "dur":2272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203484711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203484717, "dur":5040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1673795203489810, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673795203489864, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1673795203489873, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/level1.resS" }}
+,{ "pid":12345, "tid":11, "ts":1673795203492334, "dur":34593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203429126, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203429127, "dur":6340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203435468, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1673795203435805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203440931, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1673795203444206, "dur":5297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1673795203449506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203449512, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1673795203453000, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203453599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203453606, "dur":3440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203457099, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203457428, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203457435, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203460686, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203461064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203461098, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203464499, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203464721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203464728, "dur":3346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203468124, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203468316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203468323, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203471321, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203471574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203471582, "dur":3397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203475032, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203475208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203475215, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203479047, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203479436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203479444, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203481915, "dur":2700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203484618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203484626, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1673795203489430, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1673795203489679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1673795203489686, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/kfsak/OneDrive/Masast/RollerMadness/Roller Madness_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1673795203492020, "dur":34908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1673795203530857, "dur":2037, "ph":"X", "name": "ProfilerWriteOutput" }
+,
